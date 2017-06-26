@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+.col-center-block {
+  float: none;
+  display: block;
+  margin: 0 auto;
+  /* margin-left: auto; margin-right: auto; */
+}
+
+/*.ag-layout-normal .ag-body-container {*/
+  /*position: relative;*/
+  /*display: block;*/
+/*}*/
+
+@media only screen and (min-width : 768px) {
+  ag-grid-angular.ag-fresh{
+    height: 605px !important;
+  }
+}
+/*@media only screen and (min-width : 768px) {*/
+  /*ag-grid-angular.ag-fresh{*/
+    /*height: 605px;*/
+  /*}*/
+/*}*/
+

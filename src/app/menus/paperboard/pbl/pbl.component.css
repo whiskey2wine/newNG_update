@@ -1,0 +1,34 @@
+input[type=radio] {
+  display:none;
+  margin:10px;
+}
+
+input[type=radio] + label {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+input[type=radio]:checked + label {
+  background-image: none;
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+input[type=radio]:hover + label:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+input[type=radio]:checked:hover + label:hover {
+  background-image: none;
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
